@@ -3,9 +3,10 @@ var clientApplication;
 
 (function () {
 
+    // clientID: '2730fe41-5ed4-446e-86cd-e58871ca001e',
     // Enter Global Config Values & Instantiate MSAL Client application
     window.config = {
-        clientID: '2730fe41-5ed4-446e-86cd-e58871ca001e',
+        clientID: '4b91979e-7cf4-4d3a-8de5-1abba4f7c705',
     };
 
     function authCallback(errorDesc, token, error, tokenType) {
